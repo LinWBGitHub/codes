@@ -1,0 +1,31 @@
+.me-bar
+{
+    height: 170px;
+    display: flex;
+    flex-flow: row;
+    border-bottom:1px solid #d0c4b2;
+    align-items: center;
+    text-overflow:ellipsis;
+}
+.namebox
+{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.name{width: 100%;height: 55px;font-size: 45px;line-height: 55px}
+.code{width: 100%;height: 35px;font-size: 25px;line-height: 35px}
+.barcode
+{
+    width: 50%;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+}
+div.barcode img
+{
+    height: 70px;
+    margin: 30px;
+}

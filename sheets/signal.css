@@ -1,0 +1,128 @@
+.signal
+{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-flow: row;
+    background-color: #1a1917;
+}
+.signal-left
+{
+    width: 60%;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+.signal-right
+{
+    width: 40%;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+/*以上是大体分区，分为左右两块*/
+.service
+{
+    display: flex;
+    flex-flow: column;
+    margin: 10px;
+}
+.yidong
+{
+    height: 20px;
+}
+.liantong
+{
+    height: 20px;
+}
+/*这是左边的*/
+
+.G2{
+    display: flex;
+    justify-content: flex-start;
+}
+.G4{
+    display: flex;
+    justify-content: flex-start;
+}
+.signal-tile
+{
+    width: 8%;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    margin-left: 5px;
+    justify-content: flex-end;
+}
+div.signal-tile div
+{
+    width: 6px;
+    background-color: white;
+    margin-right: 3px;
+}
+.d1
+{
+    height: 10px;
+}
+.d2
+{
+    height: 14px;
+}
+.d3
+{
+    height: 18px;
+}
+.d4
+{
+    height: 22px;
+}
+/*信号条*/
+
+/*接下来是电池的部分*/
+.battery
+{
+    width: 20%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.body
+{
+    width: 80%;
+    height: 20px;
+    border: 2px solid white;
+    justify-content: flex-start;
+}
+.inside
+{
+    width: 100%;
+    height: 96%;
+    background-color: #59ee54;
+    animation: charge 3s linear infinite;
+}
+.head
+{
+    width:3%;
+    height: 10px;
+    border:1px solid white;
+    background-color: white;
+}
+@keyframes charge {
+    0% {width: 1%;background-color: red}
+    20%{width: 20%;background-color: yellow}
+    80% {width: 80%;background-color: #59ee54}
+    100%{width: 100%;background-color: #59ee54}
+}
+.time
+{
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}

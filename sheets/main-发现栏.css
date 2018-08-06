@@ -1,0 +1,15 @@
+.main-bars
+{
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    border-bottom:1px solid #d0c4b2;
+    align-items: center;
+    text-overflow:ellipsis;
+}
+.divide-spot
+{
+    height: 30px;
+    background-color: #bcbebe;
+    border-bottom:1px solid #d0c4b2;
+}

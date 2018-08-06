@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="sheets/common.css">
+    <link rel="stylesheet" href="sheets/signal.css">
+    <link rel="stylesheet" href="sheets/option.css">
+    <link rel="stylesheet" href="sheets/main.css">
+    <link rel="stylesheet" href="sheets/buttons.css">
+    <link rel="stylesheet" href="sheets/main-我栏.css">
+    <link rel="stylesheet" href="sheets/main-发现栏.css">
+    <link rel="stylesheet" href="sheets/下拉选单.css">
+    <link rel="stylesheet" href="sheets/摇一摇页面.css">
+    <link rel="stylesheet" href="sheets/朋友圈页面.css">
+
+    <script>
+        function myFunction1() {
+            document.getElementById("change").innerHTML=("&nbsp;&nbsp;摇一摇");
+        }
+    </script>
+    <script>
+        function myFunction2() {
+            document.getElementById("change").innerHTML=("&nbsp;&nbsp;摇歌曲");
+        }
+    </script>
+    <script>
+        function myFunction3() {
+            document.getElementById("change").innerHTML=("&nbsp;&nbsp;摇电视");
+        }
+    </script>
+
+</head>
+<body>
+<div class="wrap">
+    <div class="signal">
+        <div class="signal-left">
+            <div class="service">
+                <div class="yidong"><p>中国移动</p></div>
+                <div class="liantong"><p>中国联通</p></div>
+            </div>
+        </div>
+        <div class="signal-right">
+            <div class="G2"><p>G2</p></div>
+            <div class="signal-tile border">
+                <div class="d1"></div>
+                <div class="d2"></div>
+                <div class="d3"></div>
+                <div class="d4"></div>
+            </div>
+            <div class="G4"><p>G4</p></div>
+            <div class="signal-tile border">
+                <div class="d1"></div>
+                <div class="d2"></div>
+                <div class="d3"></div>
+                <div class="d4"></div>
+            </div>
+            <div class="battery">
+                <div class="body xy-center">
+                    <div class="inside"></div>
+                </div>
+                <div class="head"></div>
+            </div>
+            <div class="time"><p>早上8:40</p></div>
+        </div>
+    </div>
+    <div class="shake-option">
+        <div class="shake-left border"><a href="发现栏.html"><img src="sheets/箭头_向左.svg" alt="" style="height: 80px"></a>
+        <p id="change" style="line-height: 80px;font-size: 50px">&nbsp;&nbsp;摇歌曲</p>
+        </div>
+        <div class="shake-right border"><img src="sheets/设置%20(1).svg" alt="" style="height: 50px"></div>
+    </div>
+
+    <div class="main-shake">
+        <img src="sheets/摇一摇%20(1).svg" alt="" style="margin: 537px;animation: shake 1s linear infinite;" >
+    </div>
+    <div class="bottom-shake border">
+        <div class="people" onclick="myFunction1()">
+            <img src="sheets/我.svg" alt="">
+            <p>人</p>
+        </div>
+        <div class="music" onclick="myFunction2()">
+            <img src="sheets/歌曲.svg" alt="">
+            <p>歌曲</p>
+        </div>
+        <div class="TV" onclick="myFunction3()">
+            <img src="sheets/电视.svg" alt="">
+            <p>电视</p>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+</body>
+</html>
